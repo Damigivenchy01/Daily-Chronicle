@@ -1,0 +1,168 @@
+@media (max-width: 79em) {
+  .vector {
+    margin-left: 12rem;
+  }
+}
+@media (max-width: 72em) {
+  .vector {
+    margin-left: 7rem;
+  }
+  .welcome {
+    margin-left: -3rem;
+  }
+}
+@media (max-width: 65em) {
+  .vector {
+    margin-left: 5rem;
+  }
+  .welcome {
+    margin-left: -2rem;
+  }
+}
+@media (max-width: 60em) {
+  .vector {
+    margin-left: 3rem;
+  }
+  .welcome {
+    margin-left: -2rem;
+  }
+}
+@media (max-width: 56em) {
+  .vector {
+    margin-left: 1rem;
+  }
+  .welcome {
+    margin-left: -1rem;
+  }
+}
+@media (max-width: 56em) {
+  .vector {
+    margin-left: 1rem;
+  }
+  .welcome {
+    margin-left: -1rem;
+  }
+}
+@media (max-width: 45em) {
+  .todo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 4rem;
+  }
+  .content-area {
+    margin: 1rem 1rem;
+  }
+  .vector {
+    margin-left: 1rem;
+  }
+  .welcome {
+    margin-left: -1rem;
+  }
+  #welcome {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .welcome {
+    margin-left: -1rem;
+  }
+  #welcome {
+    font-size: 1.5rem;
+  }
+  .gen {
+    display: block;
+  }
+
+  .container {
+    margin-top: -3rem;
+    grid-template-columns: 1fr;
+  }
+  .logo {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    display: block;
+  }
+  .vector {
+    margin-left: 7rem;
+    max-width: 20rem;
+  }
+  .forms {
+    padding-top: 0rem;
+    background-color: white;
+  }
+  .heading-2 {
+    font-size: 2rem;
+  }
+  input {
+    width: 20rem;
+    height: 2rem;
+  }
+  .reg-btn,
+  .log-in {
+    width: 20.7rem;
+    height: 2rem;
+  }
+}
+@media (max-width: 31.2em) {
+  .heading-2 {
+    text-align: center;
+  }
+  .vector {
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 28.1em) {
+  .vector {
+    margin-left: 4rem;
+  }
+  .forms {
+    margin-left: -2rem;
+  }
+  .welcome-message {
+    right: 3rem;
+    font-size: 0.8rem;
+  }
+  .content input {
+    margin-left: -11rem;
+  }
+  .words {
+    margin-left: -10rem;
+  }
+  .input-todo {
+    width: 15rem;
+    margin-left: 3rem;
+  }
+  .btn-add {
+    width: 5.7rem;
+    margin-left: 7.7rem;
+  }
+}
+@media (max-width: 25.1em) {
+  .vector {
+    margin-left: 2.5rem;
+  }
+  .forms {
+    margin-left: -2rem;
+    input {
+      width: 15rem;
+      height: 2rem;
+    }
+    .reg-btn,
+    .log-in {
+      width: 15.7rem;
+      height: 2rem;
+    }
+  }
+  .input-todo {
+    width: 15rem;
+    margin-left: 1rem;
+  }
+  .btn-add {
+    width: 5.7rem;
+    margin-left: 5.8rem;
+  }
+  .words {
+    margin-left: -6rem;
+  }
+}

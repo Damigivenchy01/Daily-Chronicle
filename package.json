@@ -1,0 +1,15 @@
+{
+  "name": "daily-chronicle",
+  "version": "1.0.0",
+  "description": "A todo app that allows users to log in or register inorder to start logging their daily task",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Oduwole Damilare",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  }
+}

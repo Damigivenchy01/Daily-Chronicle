@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #3a393999;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.gen {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  height: 40rem;
+  width: 120rempx;
+  background-color: #1111;
+}
+.logo {
+  background-color: rgb(0, 0, 14);
+}
+.reg {
+  padding: 8rem 5rem 10rem 5rem;
+  text-align: center;
+}
+.heading-2 {
+  padding-bottom: 4rem;
+}
+.todo {
+  margin-top: 0.3rem;
+  text-align: center;
+}
+
+.content-area {
+  background-color: rgb(12, 12, 68);
+  display: flex;
+  flex-direction: column;
+
+  height: 28rem;
+  padding: 1rem;
+  margin: 0 10rem 0 10rem;
+  overflow-y: scroll;
+  border-radius: 10px;
+}
+.content {
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(170, 170, 170);
+  border-radius: 7px;
+  margin: 1rem 0;
+  padding-left: 3rem;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+input {
+  width: 20rem;
+  height: 2rem;
+  margin-bottom: 0.7rem;
+  border: 1px solid rgb(183, 182, 184);
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.reg-btn {
+  width: 20.7rem;
+  height: 2rem;
+  border-radius: 5px;
+  background-color: rgb(29, 29, 129);
+  color: #ffff;
+  border: 1px solid rgb(29, 29, 129);
+}
+.log-in {
+  width: 20.7rem;
+  height: 2rem;
+  border-radius: 5px;
+  background-color: rgb(29, 29, 129);
+  color: #ffff;
+  border: 1px solid rgb(29, 29, 129);
+}
+.log {
+  padding: 10rem 5rem 10rem 5rem;
+  text-align: center;
+}
+.nav {
+  margin: 2rem;
+}
+.logo-icon {
+  color: #fff;
+  background-color: rgb(1, 1, 78);
+  max-width: fit-content;
+  padding: 0.5rem;
+  border-radius: 7px;
+  margin-bottom: 0.3rem;
+}
+.logo-name {
+  color: #fff;
+}
+.vector {
+  max-width: 20rem;
+  margin-left: 15rem;
+}
+.welcome {
+  /* margin-left: 2rem; */
+  text-align: center;
+}
+#welcome,
+.tagline,
+.error-text {
+  color: #fff;
+}
+.or {
+  margin: 1rem;
+}
+a {
+  color: rgb(29, 29, 129);
+}
+.link {
+  margin-top: 0.5rem;
+}
+.error {
+  margin-top: 0.3rem;
+  color: rgb(172, 21, 21);
+}
+.todo-container {
+  background-color: rgb(29, 29, 129);
+  overflow-y: hidden;
+}
+.content input {
+  margin-top: 0.6rem;
+  margin-left: -6rem;
+}
+.words {
+  color: #222;
+}
+
+.content .cancel {
+  margin-right: 2rem;
+  padding: 0.4rem;
+  color: #141414;
+}
+.btn-add {
+  width: 10.7rem;
+  height: 2rem;
+  border-radius: 5px;
+  color: #ffffff;
+  border: 1px solid rgb(245, 245, 248);
+  background-color: rgb(12, 12, 68);
+}
+
+.welcome-message {
+  color: whitesmoke;
+  position: absolute;
+  right: 5rem;
+  top: 5rem;
+}
